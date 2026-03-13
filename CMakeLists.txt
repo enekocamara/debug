@@ -41,7 +41,7 @@ foreach(file ${CXX_MODULES})
 endforeach()
 
 
-
+add_subdirectory(${CMAKE_SOURCE_DIR}/modules/spdlog_v1.16.0)
 
 # Check if Doxygen is available
 find_package(Doxygen REQUIRED)
@@ -52,14 +52,14 @@ if(DOXYGEN_FOUND)
     set(DOXYGEN_IN_PATH "${CMAKE_SOURCE_DIR}/Doxyfile")  # Replace with your path if different
 
     # Create a custom target to generate documentation
-    add_custom_target(doc
+    add_custom_target(doc_debug
         COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_IN_PATH}
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
         COMMENT "Generating API documentation with Doxygen"
         VERBATIM)
 
     # Make the doc target depend on the build target
-    add_dependencies(doc ${PROJECT_NAME})  # Replace ${PROJECT_NAME} with your target name if needed
+    add_dependencies(doc_debug ${PROJECT_NAME})  # Replace ${PROJECT_NAME} with your target name if needed
 endif()
 
 enable_testing()
@@ -80,7 +80,7 @@ target_include_directories(debug PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-target_link_libraries(debug PUBLIC )
+target_link_libraries(debug PUBLIC spdlog)
 
 target_compile_definitions(debug PRIVATE )
 

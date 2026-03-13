@@ -10,10 +10,13 @@
     <ClCompile Include="C:\Users\eneko\dev\debug\src\Debug.ixx">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\eneko\dev\debug\src\Todo.ixx">
+    <ClCompile Include="C:\Users\eneko\dev\debug\src\Formatable.ixx">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\eneko\dev\debug\src\formatable.ixx">
+    <ClCompile Include="C:\Users\eneko\dev\debug\src\Logger.ixx">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\eneko\dev\debug\src\Todo.ixx">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

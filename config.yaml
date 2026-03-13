@@ -7,8 +7,3 @@ modules:
     git_url: https://github.com/gabime/spdlog
     git_version: v1.16.0
     include_path: include
-  entt:
-    git_url: https://github.com/skypjack/entt
-    git_version: v3.15.0
-    include_path: include
-static_cmake: true

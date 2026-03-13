@@ -1,7 +1,7 @@
-export module db.utils.formatable;
+export module debug.utils.formatable;
 
-import <format>
-import <concepts>
+import <format>;
+import <concepts>;
 
 namespace db{
     export template<typename T>

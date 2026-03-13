@@ -1,4 +1,4 @@
-export module syris.debug.todo;
+export module debug.todo;
 import debug.break_point;
 import debug.utils.formatable;
 

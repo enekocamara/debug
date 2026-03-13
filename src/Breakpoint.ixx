@@ -1,8 +1,8 @@
 export module debug.break_point;
-import <iostream>;
-import syris.log.Logger;
+import debug.Logger;
+import debug.utils.formatable;
 import <format>;
-import syris.utils.concepts.formatable;
+import <iostream>;
 
 namespace db {
     #ifdef DEBUG

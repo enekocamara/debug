@@ -1,6 +1,6 @@
 export module debug.assert;
-import syris.debug.break_point;
-import syris.utils.concepts.formatable;
+import debug.break_point;
+import debug.utils.formatable;
 namespace db{
     export template<Formatable T>
     inline void assert(bool condition, T&& message){

@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 3/12/2026 12:12:54 PM.
+      Build started 3/13/2026 2:20:21 PM.
       
       Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\3.30.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -62,7 +62,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.80
+      Time Elapsed 00:00:00.93
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -81,8 +81,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-psyh9n"
-      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-psyh9n"
+      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-39bdtj"
+      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-39bdtj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -92,49 +92,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-psyh9n'
+        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-39bdtj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a887b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c09d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 3/12/2026 12:12:57 PM.
+        Build started 3/13/2026 2:20:22 PM.
         
-        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\cmTC_a887b.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\cmTC_c09d0.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_a887b.dir\\Debug\\".
+          Creating directory "cmTC_c09d0.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\".
-          Creating directory "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\".
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\".
+          Creating directory "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a887b.dir\\Debug\\\\" /Fd"cmTC_a887b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c09d0.dir\\Debug\\\\" /Fd"cmTC_c09d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a887b.dir\\Debug\\\\" /Fd"cmTC_a887b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c09d0.dir\\Debug\\\\" /Fd"cmTC_c09d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\cmTC_a887b.exe" /INCREMENTAL /ILK:"cmTC_a887b.dir\\Debug\\cmTC_a887b.ilk" /NOLOGO /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-psyh9n/Debug/cmTC_a887b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-psyh9n/Debug/cmTC_a887b.lib" /MACHINE:X64  /machine:x64 cmTC_a887b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a887b.vcxproj -> C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\cmTC_a887b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\cmTC_c09d0.exe" /INCREMENTAL /ILK:"cmTC_c09d0.dir\\Debug\\cmTC_c09d0.ilk" /NOLOGO /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-39bdtj/Debug/cmTC_c09d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-39bdtj/Debug/cmTC_c09d0.lib" /MACHINE:X64  /machine:x64 cmTC_c09d0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c09d0.vcxproj -> C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\cmTC_c09d0.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\cmTC_a887b.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\cmTC_a887b.write.1u.tlog" "cmTC_a887b.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\cmTC_c09d0.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\cmTC_c09d0.write.1u.tlog" "cmTC_c09d0.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\cmTC_a887b.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\cmTC_a887b.write.1u.tlog" "cmTC_a887b.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\Debug\\cmTC_a887b.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\cmTC_a887b.write.1u.tlog" "cmTC_a887b.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\cmTC_c09d0.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\cmTC_c09d0.write.1u.tlog" "cmTC_c09d0.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\Debug\\cmTC_c09d0.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\cmTC_c09d0.write.1u.tlog" "cmTC_c09d0.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a887b.dir\\Debug\\cmTC_a887b.tlog\\cmTC_a887b.lastbuildstate".
-        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-psyh9n\\cmTC_a887b.vcxproj" (default targets).
+          Deleting file "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c09d0.dir\\Debug\\cmTC_c09d0.tlog\\cmTC_c09d0.lastbuildstate".
+        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-39bdtj\\cmTC_c09d0.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:04.66
+        Time Elapsed 00:00:01.18
         
       exitCode: 0
   -
@@ -165,4 +165,302 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35222.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "modules/spdlog_v1.16.0/CMakeLists.txt:153 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-su5liy"
+      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-su5liy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-su5liy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3164.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/13/2026 2:20:23 PM.
+        
+        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f3164.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\Debug\\".
+          Creating directory "cmTC_f3164.dir\\Debug\\cmTC_f3164.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f3164.dir\\Debug\\cmTC_f3164.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f3164.dir\\Debug\\cmTC_f3164.tlog\\unsuccessfulbuild".
+        ComputeStdModulesCompileInputs:
+          Reading library manifest file 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.json' which provides data for library 'microsoft/STL'.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixx' from library 'microsoft/STL' to be built with this project.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixx' from library 'microsoft/STL' to be built with this project.
+        MakeDirsForCl:
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.dir\\Debug\\microsoft\\STL".
+        SetModuleDependencies:
+          Creating directory "cmTC_f3164.dir\\Debug\\cmTC_f3164_MD.tlog\\".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_f3164.dir\\Debug\\\\" /Fd"cmTC_f3164.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          /std:c++latest is provided as a preview of language features from the latest C++
+          working draft, and we're eager to hear about bugs and suggestions for improvements.
+          However, note that these features are provided as-is without support, and subject
+          to changes or removal as the working draft evolves. See
+          https://go.microsoft.com/fwlink/?linkid=2045807 for details.
+          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_f3164.dir\\Debug\\\\" /Fd"cmTC_f3164.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\src.cxx"
+          src.cxx
+        C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.vcxproj]
+        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-su5liy\\cmTC_f3164.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "modules/spdlog_v1.16.0/CMakeLists.txt:153 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-inu0mr"
+      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-inu0mr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-inu0mr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8010d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/13/2026 2:20:24 PM.
+        
+        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8010d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\Debug\\".
+          Creating directory "cmTC_8010d.dir\\Debug\\cmTC_8010d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8010d.dir\\Debug\\cmTC_8010d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8010d.dir\\Debug\\cmTC_8010d.tlog\\unsuccessfulbuild".
+        ComputeStdModulesCompileInputs:
+          Reading library manifest file 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.json' which provides data for library 'microsoft/STL'.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixx' from library 'microsoft/STL' to be built with this project.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixx' from library 'microsoft/STL' to be built with this project.
+        MakeDirsForCl:
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.dir\\Debug\\microsoft\\STL".
+        SetModuleDependencies:
+          Creating directory "cmTC_8010d.dir\\Debug\\cmTC_8010d_MD.tlog\\".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_8010d.dir\\Debug\\\\" /Fd"cmTC_8010d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          /std:c++latest is provided as a preview of language features from the latest C++
+          working draft, and we're eager to hear about bugs and suggestions for improvements.
+          However, note that these features are provided as-is without support, and subject
+          to changes or removal as the working draft evolves. See
+          https://go.microsoft.com/fwlink/?linkid=2045807 for details.
+          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_8010d.dir\\Debug\\\\" /Fd"cmTC_8010d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\Debug\\cmTC_8010d.exe" /INCREMENTAL /ILK:"cmTC_8010d.dir\\Debug\\cmTC_8010d.ilk" /NOLOGO /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-inu0mr/Debug/cmTC_8010d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-inu0mr/Debug/cmTC_8010d.lib" /MACHINE:X64  /machine:x64 cmTC_8010d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.vcxproj]
+        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-inu0mr\\cmTC_8010d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "modules/spdlog_v1.16.0/CMakeLists.txt:153 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-088gtt"
+      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-088gtt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-088gtt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_06245.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/13/2026 2:20:25 PM.
+        
+        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_06245.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\Debug\\".
+          Creating directory "cmTC_06245.dir\\Debug\\cmTC_06245.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_06245.dir\\Debug\\cmTC_06245.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_06245.dir\\Debug\\cmTC_06245.tlog\\unsuccessfulbuild".
+        ComputeStdModulesCompileInputs:
+          Reading library manifest file 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.json' which provides data for library 'microsoft/STL'.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixx' from library 'microsoft/STL' to be built with this project.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixx' from library 'microsoft/STL' to be built with this project.
+        MakeDirsForCl:
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.dir\\Debug\\microsoft\\STL".
+        SetModuleDependencies:
+          Creating directory "cmTC_06245.dir\\Debug\\cmTC_06245_MD.tlog\\".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_06245.dir\\Debug\\\\" /Fd"cmTC_06245.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          /std:c++latest is provided as a preview of language features from the latest C++
+          working draft, and we're eager to hear about bugs and suggestions for improvements.
+          However, note that these features are provided as-is without support, and subject
+          to changes or removal as the working draft evolves. See
+          https://go.microsoft.com/fwlink/?linkid=2045807 for details.
+          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_06245.dir\\Debug\\\\" /Fd"cmTC_06245.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\Debug\\cmTC_06245.exe" /INCREMENTAL /ILK:"cmTC_06245.dir\\Debug\\cmTC_06245.ilk" /NOLOGO /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-088gtt/Debug/cmTC_06245.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-088gtt/Debug/cmTC_06245.lib" /MACHINE:X64  /machine:x64 cmTC_06245.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.vcxproj]
+        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-088gtt\\cmTC_06245.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:70 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "modules/spdlog_v1.16.0/CMakeLists.txt:250 (check_symbol_exists)"
+    checks:
+      - "Looking for _fwrite_nolock"
+    directories:
+      source: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-r8bpki"
+      binary: "C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-r8bpki"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_FWRITE_UNLOCKED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-r8bpki'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9cac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/13/2026 2:20:25 PM.
+        
+        Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\cmTC_b9cac.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b9cac.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\".
+          Creating directory "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\unsuccessfulbuild".
+        ComputeStdModulesCompileInputs:
+          Reading library manifest file 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.json' which provides data for library 'microsoft/STL'.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixx' from library 'microsoft/STL' to be built with this project.
+          Adding module source 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixx' from library 'microsoft/STL' to be built with this project.
+        MakeDirsForCl:
+          Creating directory "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\cmTC_b9cac.dir\\Debug\\microsoft\\STL".
+        SetModuleDependencies:
+          Creating directory "cmTC_b9cac.dir\\Debug\\cmTC_b9cac_MD.tlog\\".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_b9cac.dir\\Debug\\\\" /Fd"cmTC_b9cac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\CheckSymbolExists.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          /std:c++latest is provided as a preview of language features from the latest C++
+          working draft, and we're eager to hear about bugs and suggestions for improvements.
+          However, note that these features are provided as-is without support, and subject
+          to changes or removal as the working draft evolves. See
+          https://go.microsoft.com/fwlink/?linkid=2045807 for details.
+          cl /c /I"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /Fo"cmTC_b9cac.dir\\Debug\\\\" /Fd"cmTC_b9cac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\cmTC_b9cac.exe" /INCREMENTAL /ILK:"cmTC_b9cac.dir\\Debug\\cmTC_b9cac.ilk" /NOLOGO /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-r8bpki/Debug/cmTC_b9cac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/eneko/dev/debug/build/CMakeFiles/CMakeScratch/TryCompile-r8bpki/Debug/cmTC_b9cac.lib" /MACHINE:X64  /machine:x64 cmTC_b9cac.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_b9cac.vcxproj -> C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\cmTC_b9cac.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\cmTC_b9cac.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\cmTC_b9cac.write.1u.tlog" "cmTC_b9cac.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\cmTC_b9cac.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\cmTC_b9cac.write.1u.tlog" "cmTC_b9cac.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\eneko\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\Debug\\cmTC_b9cac.exe" "C:\\Users\\eneko\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\cmTC_b9cac.write.1u.tlog" "cmTC_b9cac.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b9cac.dir\\Debug\\cmTC_b9cac.tlog\\cmTC_b9cac.lastbuildstate".
+        Done Building Project "C:\\Users\\eneko\\dev\\debug\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r8bpki\\cmTC_b9cac.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.22
+        
+      exitCode: 0
 ...
