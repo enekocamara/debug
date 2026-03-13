@@ -1,0 +1,29 @@
+export module debug.break_point;
+import <iostream>;
+import syris.log.Logger;
+import <format>;
+import syris.utils.concepts.formatable;
+
+namespace db {
+    #ifdef DEBUG
+    export template <Formatable T>
+    inline void break_point(T&& msg) {
+        Logger::core_error(std::format("BreakPoint: {}", std::forward<T>(msg)).c_str());
+        __debugbreak();
+    }
+    export inline void break_point() {
+        Logger::core_error("BreakPoint");
+        __debugbreak();
+    }
+    #else
+    export template <Formatable T>
+    inline void break_point(T&& msg) {
+        Logger::Logger.core_error(std::format("BreakPoint: {}", std::forward(msg)).c_str());
+        exit(69);
+    }
+    export inline void break_point() {
+        Logger::Logger.core_error("BreakPoint");
+        exit(69);
+    }
+    #endif
+}
