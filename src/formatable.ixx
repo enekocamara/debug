@@ -1,4 +1,4 @@
-export module debug.utils.formatable;
+export module debug_lib.utils.formatable;
 
 import <format>;
 import <concepts>;

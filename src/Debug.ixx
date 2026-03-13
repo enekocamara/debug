@@ -1,5 +1,5 @@
-export module debug.debug;
+export module debug_lib.debug;
 
-export import debug.todo;
-export import debug.break_point;
-export import debug.assert;
+export import debug_lib.todo;
+export import debug_lib.break_point;
+export import debug_lib.assert;

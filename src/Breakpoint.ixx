@@ -1,6 +1,6 @@
-export module debug.break_point;
-import debug.Logger;
-import debug.utils.formatable;
+export module debug_lib.break_point;
+import debug_lib.Logger;
+import debug_lib.utils.formatable;
 import <format>;
 import <iostream>;
 

@@ -1,4 +1,4 @@
-export module debug.Logger;
+export module debug_lib.Logger;
 import <spdlog/spdlog.h>;
 import <spdlog/sinks/stdout_color_sinks.h>;
 import <memory>;

@@ -1,6 +1,6 @@
-export module debug.todo;
-import debug.break_point;
-import debug.utils.formatable;
+export module debug_lib.todo;
+import debug_lib.break_point;
+import debug_lib.utils.formatable;
 
 namespace db {
     export template<db::Formatable T>

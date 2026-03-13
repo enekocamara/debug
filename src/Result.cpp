@@ -1,4 +1,4 @@
-module vulkan_lib.result;
+module debug_lib.result;
 import <string>;
 import <optional>;
 import <memory>;

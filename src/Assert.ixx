@@ -1,6 +1,6 @@
-export module debug.assert;
-import debug.break_point;
-import debug.utils.formatable;
+export module debug_lib.assert;
+import debug_lib.break_point;
+import debug_lib.utils.formatable;
 namespace db{
     export template<Formatable T>
     inline void assert(bool condition, T&& message){

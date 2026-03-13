@@ -1,4 +1,4 @@
-export module vulkan_lib.result;
+export module debug_lib.result;
 
 import <string>;
 import <source_location>;
