@@ -19,11 +19,11 @@ namespace db {
     export template <Formatable T>
     inline void break_point(T&& msg) {
         Logger::Logger.core_error(std::format("BreakPoint: {}", std::forward(msg)).c_str());
-        exit(69);
+        exit(1111);
     }
     export inline void break_point() {
         Logger::Logger.core_error("BreakPoint");
-        exit(69);
+        exit(1111);
     }
     #endif
 }
