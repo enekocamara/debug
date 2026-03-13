@@ -1,3 +1,6 @@
 [submodule "modules/spdlog_v1.16.0"]
 	path = modules/spdlog_v1.16.0
 	url = https://github.com/gabime/spdlog
+[submodule "modules/entt_v3.15.0"]
+	path = modules/entt_v3.15.0
+	url = https://github.com/skypjack/entt
