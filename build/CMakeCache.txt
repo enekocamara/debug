@@ -142,7 +142,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=debug
+CMAKE_PROJECT_NAME:STATIC=debug-lib
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.16.0
@@ -333,6 +333,15 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 
 //Support wchar api
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
+
+//Value Computed by CMake
+debug-lib_BINARY_DIR:STATIC=C:/Users/eneko/dev/debug/build
+
+//Value Computed by CMake
+debug-lib_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+debug-lib_SOURCE_DIR:STATIC=C:/Users/eneko/dev/debug
 
 //Value Computed by CMake
 debug_BINARY_DIR:STATIC=C:/Users/eneko/dev/debug/build

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(debug CXX)
+project(debug-lib CXX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -52,14 +52,14 @@ if(DOXYGEN_FOUND)
     set(DOXYGEN_IN_PATH "${CMAKE_SOURCE_DIR}/Doxyfile")  # Replace with your path if different
 
     # Create a custom target to generate documentation
-    add_custom_target(doc_debug
+    add_custom_target(doc_debug-lib
         COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_IN_PATH}
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
         COMMENT "Generating API documentation with Doxygen"
         VERBATIM)
 
     # Make the doc target depend on the build target
-    add_dependencies(doc_debug ${PROJECT_NAME})  # Replace ${PROJECT_NAME} with your target name if needed
+    add_dependencies(doc_debug-lib ${PROJECT_NAME})  # Replace ${PROJECT_NAME} with your target name if needed
 endif()
 
 enable_testing()
@@ -67,22 +67,22 @@ enable_testing()
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 set(CTEST_BINARY_DIRECTORY "${CMAKE_SOURCE_DIR}/Testing")
 
-add_library(debug STATIC)
-target_sources(debug
+add_library(debug-lib STATIC)
+target_sources(debug-lib
     PRIVATE ${SOURCES}
     PRIVATE FILE_SET CXX_MODULES FILES ${CXX_MODULES}
 )
-target_compile_definitions(debug PRIVATE $<$<CONFIG:Debug>:DEBUG>)
-target_compile_definitions(debug PRIVATE $<$<CONFIG:Release>:RELEASE>)
+target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Debug>:DEBUG>)
+target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Release>:RELEASE>)
 
-target_include_directories(debug PUBLIC
+target_include_directories(debug-lib PUBLIC
 	${CMAKE_SOURCE_DIR}/modules/spdlog_v1.16.0/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-target_link_libraries(debug PUBLIC spdlog)
+target_link_libraries(debug-lib PUBLIC spdlog)
 
-target_compile_definitions(debug PRIVATE )
+target_compile_definitions(debug-lib PRIVATE )
 
 # Enable multi-processor compilation (if supported by the compiler)
 if(MSVC)

@@ -1,7 +1,7 @@
-project: debug
-current_target: debug
+project: debug-lib
+current_target: debug-lib
 targets:
-  debug: StaticLibrary
+  debug-lib: StaticLibrary
 modules:
   spdlog:
     git_url: https://github.com/gabime/spdlog

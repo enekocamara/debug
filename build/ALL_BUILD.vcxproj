@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\eneko\dev\debug\build\debug.vcxproj">
-      <Project>{BC6B5C7B-35D3-370F-8A60-38EAC41EB7D9}</Project>
-      <Name>debug</Name>
+    <ProjectReference Include="C:\Users\eneko\dev\debug\build\debug-lib.vcxproj">
+      <Project>{F44E9933-F808-38FE-A028-F4A6FEC8BC26}</Project>
+      <Name>debug-lib</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\eneko\dev\debug\build\modules\spdlog_v1.16.0\spdlog.vcxproj">
       <Project>{7AEABE4E-0140-3330-8B29-EC64927994AD}</Project>
