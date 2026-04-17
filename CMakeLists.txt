@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 4.3.0)
 
-project(debug-lib CXX)
-
+project(debug-lib C CXX)
 set(CMAKE_CXX_STANDARD 23)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 # Set the output directory structure
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/output/lib/$<CONFIG>")
@@ -13,8 +13,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/output/bin/$<CONFIG>")
 file(GLOB_RECURSE SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h
 )
 file(GLOB_RECURSE CXX_MODULES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.ixx
@@ -41,7 +39,7 @@ foreach(file ${CXX_MODULES})
 endforeach()
 
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/modules/spdlog_v1.16.0)
+
 
 # Check if Doxygen is available
 find_package(Doxygen REQUIRED)
@@ -67,10 +65,11 @@ enable_testing()
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 set(CTEST_BINARY_DIRECTORY "${CMAKE_SOURCE_DIR}/Testing")
 
+
 add_library(debug-lib STATIC)
 target_sources(debug-lib
     PRIVATE ${SOURCES}
-    PRIVATE FILE_SET CXX_MODULES FILES ${CXX_MODULES}
+    PUBLIC FILE_SET CXX_MODULES FILES ${CXX_MODULES}
 )
 target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Debug>:DEBUG>)
 target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Release>:RELEASE>)

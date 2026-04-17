@@ -1,8 +1,0 @@
-C:/Users/eneko/dev/debug/build/CMakeFiles/doc_debug-lib.dir
-C:/Users/eneko/dev/debug/build/CMakeFiles/debug-lib.dir
-C:/Users/eneko/dev/debug/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/eneko/dev/debug/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/eneko/dev/debug/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/eneko/dev/debug/build/modules/spdlog_v1.16.0/CMakeFiles/spdlog.dir
-C:/Users/eneko/dev/debug/build/modules/spdlog_v1.16.0/CMakeFiles/RUN_TESTS.dir
-C:/Users/eneko/dev/debug/build/modules/spdlog_v1.16.0/CMakeFiles/ALL_BUILD.dir

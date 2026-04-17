@@ -1,14 +1,15 @@
+module;
+#include <format>
+
 export module debug_lib.break_point;
-import debug_lib.Logger;
 import debug_lib.utils.formatable;
-import <format>;
-import <iostream>;
+import debug_lib.Logger;
 
 namespace db {
     #ifdef DEBUG
     export template <Formatable T>
     inline void break_point(T&& msg) {
-        Logger::core_error(std::format("BreakPoint: {}", std::forward<T>(msg)).c_str());
+//        Logger::core_error(std::format("BreakPoint: {}", std::forward<T>(msg)).c_str());
         __debugbreak();
     }
     export inline void break_point() {

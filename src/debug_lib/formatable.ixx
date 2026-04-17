@@ -1,7 +1,9 @@
+module;
+#include <format>
+#include <concepts>
+
 export module debug_lib.utils.formatable;
 
-import <format>;
-import <concepts>;
 
 namespace db{
     export template<typename T>

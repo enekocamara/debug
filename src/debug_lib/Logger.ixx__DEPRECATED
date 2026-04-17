@@ -1,6 +1,9 @@
+module;
+#include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
+
 export module debug_lib.Logger;
-import <spdlog/spdlog.h>;
-import <spdlog/sinks/stdout_color_sinks.h>;
+
 import <memory>;
 import <format>;
 namespace db{
@@ -21,7 +24,8 @@ namespace db{
         static void core_warn(const char* warn){ core_logger()->warn(warn);}
         template<typename T>
         static void core_info(T&& info){ core_logger()->info(std::forward<T>(info));}
-        static void core_trace(const char* trace){ core_logger()->trace(trace);}
+        template<typename T>
+        static void core_trace(T&& trace){ core_logger()->trace(std::forward<T>(trace));}
 
         template<typename T>
         static void client_error(T&& error){ client_logger()->error(std::forward<T>(error));}

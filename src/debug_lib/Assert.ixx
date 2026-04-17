@@ -1,3 +1,7 @@
+module;
+
+#include <utility>
+
 export module debug_lib.assert;
 import debug_lib.break_point;
 import debug_lib.utils.formatable;
