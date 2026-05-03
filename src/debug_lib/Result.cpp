@@ -1,13 +1,11 @@
-module;
+#pragma once
 
 #include <string>
 #include <optional>
 #include <memory>
 #include <source_location>
 #include <expected>
-
-module debug_lib.result;
-
+#include "Result.hpp"
 namespace db {
 	auto make_error(std::string message, std::optional<Error> error_source, uint32_t code, std::source_location location) -> Error {
 		if (error_source.has_value()) {

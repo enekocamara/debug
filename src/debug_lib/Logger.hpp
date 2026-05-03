@@ -1,14 +1,11 @@
-module;
+#pragma once
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
 #include <memory>
 #include <string_view>
-export module debug_lib.Logger;
-
-
 
 namespace db {
-    export class Logger {
+    class Logger {
     public:
         Logger(const Logger& ref) = delete;
         Logger& operator=(const Logger& ref) = delete;

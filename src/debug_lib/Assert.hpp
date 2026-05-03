@@ -1,4 +1,5 @@
-module;
+#pragma once
+/*module;
 
 #include <utility>
 
@@ -11,4 +12,4 @@ namespace db{
         if (!condition)
             break_point(std::forward<T>(message));
     }
-}
+}*/

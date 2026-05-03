@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 4.3.0)
 project(debug-lib C CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 # Set the output directory structure
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/output/lib/$<CONFIG>")
@@ -13,9 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/output/bin/$<CONFIG>")
 file(GLOB_RECURSE SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
-)
-file(GLOB_RECURSE CXX_MODULES
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.ixx
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h
 )
 
 # Automatically organize files in Visual Studio
@@ -28,18 +26,6 @@ foreach(file ${SOURCES})
     # Create a source group for each directory
     source_group("${directory}" FILES ${file})
 endforeach()
-foreach(file ${CXX_MODULES})
-    # Get relative path and convert to Windows style
-    string(REPLACE "${CMAKE_CURRENT_SOURCE_DIR}/" "" relative_path ${file})
-    string(REPLACE "/" "\\" relative_path ${relative_path})
-    get_filename_component(directory ${relative_path} DIRECTORY)
-    
-    # Create a source group for each directory
-    source_group("${directory}" FILES ${file})
-endforeach()
-
-
-
 
 # Check if Doxygen is available
 find_package(Doxygen REQUIRED)
@@ -69,7 +55,6 @@ set(CTEST_BINARY_DIRECTORY "${CMAKE_SOURCE_DIR}/Testing")
 add_library(debug-lib STATIC)
 target_sources(debug-lib
     PRIVATE ${SOURCES}
-    PUBLIC FILE_SET CXX_MODULES FILES ${CXX_MODULES}
 )
 target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Debug>:DEBUG>)
 target_compile_definitions(debug-lib PRIVATE $<$<CONFIG:Release>:RELEASE>)
@@ -84,8 +69,4 @@ target_link_libraries(debug-lib PUBLIC spdlog)
 target_compile_definitions(debug-lib PRIVATE )
 
 # Enable multi-processor compilation (if supported by the compiler)
-if(MSVC)
-    add_compile_options(/MP)
-else()
-    add_compile_options(-j$(nproc))
-endif()
+add_compile_options(-j$(nproc))

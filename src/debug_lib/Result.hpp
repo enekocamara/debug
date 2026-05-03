@@ -1,5 +1,4 @@
-module;
-
+#pragma once
 #include <string>
 #include <source_location>
 #include <memory>
@@ -7,15 +6,13 @@ module;
 #include <expected>
 #include <cstdint>
 
-export module debug_lib.result;
-
 
 namespace db {
-	export struct EmptyOk {};
+	struct EmptyOk {};
 
-	export struct EmptyErr {};
+	struct EmptyErr {};
 
-    export class Error {
+    class Error {
 	public:
 
 		std::string to_string() const {
@@ -42,11 +39,11 @@ namespace db {
 
 	};
 
-	export template<typename Ok, typename Err = Error>
-		using Result = std::expected<Ok, Err>;
+	template<typename Ok, typename Err = Error>
+		using Result [[nodiscard]] = std::expected<Ok, Err>;
 
-	export [[nodiscard]] auto
+	[[nodiscard]] auto
 		make_error(std::string message, std::optional<Error> error_source = std::nullopt, uint32_t code = 0, std::source_location location = std::source_location::current()) -> Error;
-	export [[nodiscard]] auto
+	[[nodiscard]] auto
 		error(std::string message, std::optional<Error> error_source = std::nullopt, uint32_t code = 0, std::source_location location = std::source_location::current()) -> std::unexpected<Error>;
 }
